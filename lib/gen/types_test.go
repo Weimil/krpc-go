@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/atburke/krpc-go/types"
 	"github.com/dave/jennifer/jen"
 	"github.com/stretchr/testify/require"
+	"github.com/weimil/krpc-go/types"
 )
 
 func TestGetProcedureType(t *testing.T) {
@@ -218,7 +218,7 @@ func TestGetGoType(t *testing.T) {
 		t.Run(tc.name, func(t *testing.T) {
 			var imports []string
 			if tc.wantAPI {
-				imports = append(imports, `import types "github.com/atburke/krpc-go/types"`)
+				imports = append(imports, `import types "github.com/weimil/krpc-go/types"`)
 			}
 			if tc.wantService != "" {
 				imports = append(imports, fmt.Sprintf("import %v %q", strings.ToLower(tc.wantService), getServicePackage(tc.wantService)))
@@ -234,7 +234,7 @@ func TestGetGoType(t *testing.T) {
 			require.NoError(t, err)
 
 			f := jen.NewFile("gentest")
-			f.Type().Id("Test").Add(GetGoType(tc.t, WithPackage("github.com/atburke/krpc-go/myservice")))
+			f.Type().Id("Test").Add(GetGoType(tc.t, WithPackage("github.com/weimil/krpc-go/myservice")))
 			var out bytes.Buffer
 			require.NoError(t, f.Render(&out))
 			require.Equal(t, string(expectedOut), out.String())

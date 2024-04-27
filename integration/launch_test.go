@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	krpcgo "github.com/atburke/krpc-go"
-	"github.com/atburke/krpc-go/krpc"
-	"github.com/atburke/krpc-go/spacecenter"
-	"github.com/atburke/krpc-go/types"
 	"github.com/stretchr/testify/require"
+	krpcgo "github.com/weimil/krpc-go"
+	"github.com/weimil/krpc-go/krpc"
+	"github.com/weimil/krpc-go/spacecenter"
+	"github.com/weimil/krpc-go/types"
 )
 
 // TestLaunch starts from the space center, loads the Kerbal, X, and launches

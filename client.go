@@ -6,8 +6,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/atburke/krpc-go/types"
 	"github.com/golang/protobuf/proto"
+	"github.com/weimil/krpc-go/types"
 	"github.com/ztrue/tracerr"
 )
 

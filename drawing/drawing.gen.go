@@ -5,13 +5,13 @@
 package drawing
 
 import (
-	krpcgo "github.com/atburke/krpc-go"
-	krpc "github.com/atburke/krpc-go/krpc"
-	encode "github.com/atburke/krpc-go/lib/encode"
-	service "github.com/atburke/krpc-go/lib/service"
-	spacecenter "github.com/atburke/krpc-go/spacecenter"
-	types "github.com/atburke/krpc-go/types"
-	ui "github.com/atburke/krpc-go/ui"
+	krpcgo "github.com/weimil/krpc-go"
+	krpc "github.com/weimil/krpc-go/krpc"
+	encode "github.com/weimil/krpc-go/lib/encode"
+	service "github.com/weimil/krpc-go/lib/service"
+	spacecenter "github.com/weimil/krpc-go/spacecenter"
+	types "github.com/weimil/krpc-go/types"
+	ui "github.com/weimil/krpc-go/ui"
 	tracerr "github.com/ztrue/tracerr"
 )
 

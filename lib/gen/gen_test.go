@@ -5,9 +5,9 @@ import (
 	"go/format"
 	"testing"
 
-	"github.com/atburke/krpc-go/types"
 	"github.com/dave/jennifer/jen"
 	"github.com/stretchr/testify/require"
+	"github.com/weimil/krpc-go/types"
 )
 
 func TestGenerateProcedure(t *testing.T) {
@@ -97,8 +97,8 @@ const testClass = `
 package gentest
 
 import (
-	krpcgo "github.com/atburke/krpc-go"
-	service "github.com/atburke/krpc-go/lib/service"
+	krpcgo "github.com/weimil/krpc-go"
+	service "github.com/weimil/krpc-go/lib/service"
 )
 
 // Test - a test class.

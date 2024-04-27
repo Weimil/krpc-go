@@ -6,9 +6,9 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/atburke/krpc-go/lib/service"
-	"github.com/atburke/krpc-go/types"
 	"github.com/golang/protobuf/proto"
+	"github.com/weimil/krpc-go/lib/service"
+	"github.com/weimil/krpc-go/types"
 	"github.com/ztrue/tracerr"
 )
 

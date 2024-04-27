@@ -4,10 +4,10 @@ const testProcedure = `
 package gentest
 
 import (
-	krpcgo "github.com/atburke/krpc-go"
-	encode "github.com/atburke/krpc-go/lib/encode"
-	krpc "github.com/atburke/krpc-go/krpc"
-	types "github.com/atburke/krpc-go/types"
+	krpcgo "github.com/weimil/krpc-go"
+	encode "github.com/weimil/krpc-go/lib/encode"
+	krpc "github.com/weimil/krpc-go/krpc"
+	types "github.com/weimil/krpc-go/types"
 	tracerr "github.com/ztrue/tracerr"
 )
 
@@ -97,8 +97,8 @@ const testClassSetter = `
 package gentest
 
 import (
-	encode "github.com/atburke/krpc-go/lib/encode"
-	types "github.com/atburke/krpc-go/types"
+	encode "github.com/weimil/krpc-go/lib/encode"
+	types "github.com/weimil/krpc-go/types"
 	tracerr "github.com/ztrue/tracerr"
 )
 

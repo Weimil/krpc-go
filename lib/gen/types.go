@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/atburke/krpc-go/types"
 	"github.com/dave/jennifer/jen"
+	"github.com/weimil/krpc-go/types"
 	"github.com/ztrue/tracerr"
 )
 

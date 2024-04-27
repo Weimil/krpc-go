@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/atburke/krpc-go/lib/service"
-	"github.com/atburke/krpc-go/types"
 	"github.com/stretchr/testify/require"
+	"github.com/weimil/krpc-go/lib/service"
+	"github.com/weimil/krpc-go/types"
 )
 
 type testClass struct {

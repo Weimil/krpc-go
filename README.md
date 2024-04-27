@@ -4,7 +4,7 @@ krpc-go is a Go client for [kRPC](https://github.com/krpc/krpc), a [Kerbal Space
 ## Installation
 
 ```sh
-go get github.com/atburke/krpc-go
+go get github.com/weimil/krpc-go
 ```
 
 ## Getting Started
@@ -17,9 +17,9 @@ package main
 import (
     "context"
 
-    krpcgo "github.com/atburke/krpc-go"
-    "github.com/atburke/krpc-go/krpc"
-    "github.com/atburke/krpc-go/spacecenter"
+    krpcgo "github.com/weimil/krpc-go"
+    "github.com/weimil/krpc-go/krpc"
+    "github.com/weimil/krpc-go/spacecenter"
 )
 
 func main() {

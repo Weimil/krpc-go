@@ -5,11 +5,11 @@
 package ui
 
 import (
-	krpcgo "github.com/atburke/krpc-go"
-	krpc "github.com/atburke/krpc-go/krpc"
-	encode "github.com/atburke/krpc-go/lib/encode"
-	service "github.com/atburke/krpc-go/lib/service"
-	types "github.com/atburke/krpc-go/types"
+	krpcgo "github.com/weimil/krpc-go"
+	krpc "github.com/weimil/krpc-go/krpc"
+	encode "github.com/weimil/krpc-go/lib/encode"
+	service "github.com/weimil/krpc-go/lib/service"
+	types "github.com/weimil/krpc-go/types"
 	tracerr "github.com/ztrue/tracerr"
 )
 

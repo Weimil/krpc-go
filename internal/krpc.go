@@ -1,9 +1,9 @@
 package internal
 
 import (
-	krpcgo "github.com/atburke/krpc-go"
-	"github.com/atburke/krpc-go/types"
 	"github.com/golang/protobuf/proto"
+	krpcgo "github.com/weimil/krpc-go"
+	"github.com/weimil/krpc-go/types"
 	"github.com/ztrue/tracerr"
 )
 

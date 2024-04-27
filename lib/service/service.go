@@ -1,7 +1,7 @@
 // Package service provides some definitions needed to generate services.
 package service
 
-import krpcgo "github.com/atburke/krpc-go"
+import krpcgo "github.com/weimil/krpc-go"
 
 type Enum interface {
 	Value() int32

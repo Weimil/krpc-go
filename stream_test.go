@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/atburke/krpc-go/lib/utils"
 	"github.com/stretchr/testify/require"
+	"github.com/weimil/krpc-go/lib/utils"
 )
 
 func TestStreamManager(t *testing.T) {

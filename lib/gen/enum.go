@@ -3,10 +3,10 @@ package gen
 import (
 	"fmt"
 
-	"github.com/atburke/krpc-go/lib/utils"
-	"github.com/atburke/krpc-go/types"
 	"github.com/dave/jennifer/jen"
 	"github.com/mitchellh/go-wordwrap"
+	"github.com/weimil/krpc-go/lib/utils"
+	"github.com/weimil/krpc-go/types"
 	"github.com/ztrue/tracerr"
 )
 
