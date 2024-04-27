@@ -1,10 +1,10 @@
 module github.com/weimil/krpc-go
 
-go 1.19
+go 1.22.2
 
 require (
 	github.com/dave/jennifer v1.6.0
-	github.com/golang/protobuf v1.5.2
+	github.com/golang/protobuf v1.5.0
 	github.com/mitchellh/go-wordwrap v1.0.1
 	github.com/stretchr/testify v1.8.0
 	github.com/ztrue/tracerr v0.3.0
